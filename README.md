@@ -42,7 +42,7 @@
 ## Start the MLX LM server
 
    ```bash
-   mlx_vlm.server --model mlx-community/gemma-4-12B-it-OptiQ-4bit --port 8080
+   mlx-openai-server --model mlx-community/gemma-4-12B-it-4bit --max-kv-size 4096 --kv-bits 4 --port 8080
    ```
 
 ## Open another terminal and start the Google ADK Web
